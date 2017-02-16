@@ -51,7 +51,4 @@ sub.insert(0, 'id', test_ids)
 sub.reset_index()
 sub.to_csv('submit5.csv', index = False)
 sub.head()
-"""
-import nltk
-nltk.download()
-"""
+
